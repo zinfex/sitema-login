@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&display=swap');
+
+body {
+    background: linear-gradient(-45deg, rgb(8, 99, 35), #1a083f, #210640, #119a5c);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 98vh;
+    color: white;
+
+    display: flex;
+    align-items: center;
+}
+  
+main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+  
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#bloco {
+    background-color: rgb(48, 44, 67);
+    width: 40%;
+    height: 370px;  
+    border-radius: 20px;
+    -webkit-box-shadow: -35px 32px 14px rgba(0, 0, 0, 0.295);
+		-moz-box-shadow:    -35px 32px 14px rgba(3, 3, 3, 0.256);
+		box-shadow:         -35px 32px 14px rgba(0, 0, 0, 0.208);
+    padding: 20px;
+}
+
+#bloco form {
+  padding-inline: 20px;
+}
+
+#bloco form .row {
+  display: block;
+}
+
+#info {
+  left: 45px;
+  top: 100px;
+}
+
+#info img {
+  width: 350px;
+  margin-left: 50px;
+}
+
+#info h1 {
+  margin-top: 20px;
+  color: #47b974;
+  font-family: 'Secular One', sans-serif;
+  font-size: 50px;
+}
+
+#bloco h1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(9, 165, 9);
+  font-family: 'Braah One', sans-serif;
+}
+
+.btn {
+  transition: 200ms ease-in-out;
+  margin-top: 50px; 
+  width: 83.4%;
+}
+
+.btn:hover {
+  box-shadow: #022d13 1px 5px 20px 3px;
+}
+
+.col-sm-10 {
+  margin: 0;
+}
