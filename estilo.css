@@ -34,12 +34,10 @@ main {
 #bloco {
     background-color: rgb(48, 44, 67);
     width: 40%;
-    height: 370px;  
-    border-radius: 20px;
-    -webkit-box-shadow: -35px 32px 14px rgba(0, 0, 0, 0.295);
-		-moz-box-shadow:    -35px 32px 14px rgba(3, 3, 3, 0.256);
-		box-shadow:         -35px 32px 14px rgba(0, 0, 0, 0.208);
-    padding: 20px;
+    height: auto;  
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.115) 1px 1px 19px 1px;
+    padding: 10px;
 }
 
 #bloco form {
@@ -61,22 +59,23 @@ main {
 }
 
 #info h1 {
-  margin-top: 20px;
-  color: #47b974;
+  color: #c5efd5;
   font-family: 'Secular One', sans-serif;
   font-size: 50px;
 }
 
 #bloco h1 {
+  padding-top: 20px;
   display: flex;
   justify-content: center;
-  color: rgb(9, 165, 9);
+  color: rgb(255, 255, 255);
   font-family: 'Braah One', sans-serif;
 }
 
 .btn {
   transition: 200ms ease-in-out;
   margin-top: 50px; 
+  margin-bottom: 20px;
   width: 83.4%;
 }
 
